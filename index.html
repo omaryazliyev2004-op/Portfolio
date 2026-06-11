@@ -159,133 +159,130 @@
                 </div>
             </section>
 
-            <section id="projects" class="mt-[30px] scroll-mt-[40px] pb-[80px] sm:mt-[50px]">
-                <div class="mb-[40px] reveal-up">
-                    <p class="inline-block rounded-[999px] border border-[#0080ff] bg-[#0080ff1a] px-[16px] py-[8px] text-[12px] font-bold uppercase tracking-[2px] text-[#52a8ff]">Portfolio / Projects</p>
-                    <h2 class="mt-[18px] text-[30px] font-bold text-white sm:text-[38px]">Some projects I can proudly show</h2>
-                    <p class="mt-[16px] max-w-[760px] text-[16px] leading-[28px] text-[#b9c7cf] sm:text-[18px]">Here are real projects I have built — from ERP systems to e-commerce and movie apps.</p>
+            <section id="projects" style="margin-top:50px;scroll-margin-top:40px;padding-bottom:80px;">
+                <div style="margin-bottom:40px;" class="reveal-up">
+                    <p style="display:inline-block;border-radius:999px;border:1px solid #0080ff;background:rgba(0,128,255,0.1);padding:8px 16px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#52a8ff;">Portfolio / Projects</p>
+                    <h2 style="margin-top:18px;font-size:38px;font-weight:700;color:#fff;">Some projects I can proudly show</h2>
+                    <p style="margin-top:16px;max-width:760px;font-size:18px;line-height:28px;color:#b9c7cf;">Here are real projects I have built — from ERP systems to e-commerce and movie apps.</p>
                 </div>
 
-                <div class="grid gap-[24px] md:grid-cols-2 xl:grid-cols-3">
+                <div style="display:grid;gap:24px;grid-template-columns:1fr;" class="projects-grid">
 
                     <!-- TM Edu -->
-                    <article class="project-card reveal-up rounded-[28px] border border-[#1e2d38] overflow-hidden flex flex-col">
+                    <article class="project-card reveal-up" style="border-radius:28px;border:1px solid #1e2d38;overflow:hidden;display:flex;flex-direction:column;">
                         <!-- Card top banner -->
-                        <div class="relative h-[140px] flex items-center justify-center overflow-hidden" style="background: linear-gradient(135deg, #0a1628 0%, #0d2040 50%, #061830 100%);">
-                            <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 50%, rgba(0,128,255,0.25) 0%, transparent 60%), radial-gradient(circle at 80% 20%, rgba(82,168,255,0.15) 0%, transparent 50%);"></div>
-                            <div class="relative z-10 flex flex-col items-center gap-[10px]">
-                                <div style="width:62px;height:62px;border-radius:18px;background:rgba(0,128,255,0.15);border:1px solid rgba(0,128,255,0.35);display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px rgba(0,128,255,0.3);">
-                                    <i class="fa-solid fa-graduation-cap text-[28px] text-[#52a8ff]"></i>
+                        <div style="position:relative;height:150px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(135deg,#0a1628 0%,#0d2040 50%,#061830 100%);border-bottom:1px solid rgba(0,128,255,0.2);">
+                            <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 50%,rgba(0,128,255,0.25) 0%,transparent 60%),radial-gradient(circle at 80% 20%,rgba(82,168,255,0.15) 0%,transparent 50%);"></div>
+                            <div style="position:relative;z-index:10;">
+                                <div style="width:62px;height:62px;border-radius:18px;background:rgba(0,128,255,0.15);border:1px solid rgba(0,128,255,0.4);display:flex;align-items:center;justify-content:center;box-shadow:0 0 28px rgba(0,128,255,0.4);">
+                                    <i class="fa-solid fa-graduation-cap" style="font-size:26px;color:#52a8ff;"></i>
                                 </div>
                             </div>
-                            <span class="absolute top-[14px] left-[16px] rounded-[999px] bg-[#0080ff] px-[12px] py-[5px] text-[11px] font-bold uppercase tracking-[1.5px] text-white">ERP System</span>
-                            <div class="absolute top-[14px] right-[14px] flex items-center gap-[10px]">
-                                <a href="https://github.com/omaryazliyev2004-op/TM-Edu" target="_blank" class="w-[32px] h-[32px] rounded-[10px] flex items-center justify-center transition-all duration-200 hover:bg-white/10" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);">
-                                    <i class="fa-brands fa-github text-[16px] text-[#b9c7cf]"></i>
+                            <span style="position:absolute;top:14px;left:16px;border-radius:999px;background:#0080ff;padding:5px 12px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#fff;">ERP System</span>
+                            <div style="position:absolute;top:14px;right:14px;display:flex;align-items:center;gap:8px;">
+                                <a href="https://github.com/omaryazliyev2004-op/TM-Edu" target="_blank" style="width:32px;height:32px;border-radius:10px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;">
+                                    <i class="fa-brands fa-github" style="font-size:16px;color:#b9c7cf;"></i>
                                 </a>
-                                <a href="https://najotedu.vercel.app/" target="_blank" class="w-[32px] h-[32px] rounded-[10px] flex items-center justify-center transition-all duration-200 hover:bg-white/10" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);">
-                                    <i class="fa-solid fa-arrow-up-right-from-square text-[13px] text-[#b9c7cf]"></i>
+                                <a href="https://najotedu.vercel.app/" target="_blank" style="width:32px;height:32px;border-radius:10px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;">
+                                    <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:13px;color:#b9c7cf;"></i>
                                 </a>
                             </div>
                         </div>
                         <!-- Card body -->
-                        <div class="p-[22px] flex flex-col flex-1">
-                            <h3 class="text-[20px] font-bold text-white leading-[1.3]">TM Edu — Student & Teacher ERP</h3>
-                            <p class="mt-[10px] text-[14px] leading-[24px] text-[#9fb0bb]">Talabalar va o'qituvchilarni boshqarish uchun ishlab chiqilgan to'liq ERP tizimi.</p>
-                            <!-- Features -->
-                            <ul class="mt-[14px] flex flex-col gap-[6px]">
-                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#0080ff] text-[11px]"></i> Student & Teacher management</li>
-                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#0080ff] text-[11px]"></i> Dashboard & CRUD operations</li>
-                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#0080ff] text-[11px]"></i> Responsive design</li>
+                        <div style="padding:22px;display:flex;flex-direction:column;flex:1;">
+                            <h3 style="font-size:20px;font-weight:700;color:#fff;line-height:1.3;">TM Edu — Student & Teacher ERP</h3>
+                            <p style="margin-top:10px;font-size:14px;line-height:24px;color:#9fb0bb;">Talabalar va o'qituvchilarni boshqarish uchun ishlab chiqilgan to'liq ERP tizimi.</p>
+                            <ul style="margin-top:14px;display:flex;flex-direction:column;gap:8px;">
+                                <li style="display:flex;align-items:center;gap:8px;font-size:13px;color:#c6d2d8;"><i class="fa-solid fa-check" style="font-size:11px;color:#0080ff;"></i> Student & Teacher management</li>
+                                <li style="display:flex;align-items:center;gap:8px;font-size:13px;color:#c6d2d8;"><i class="fa-solid fa-check" style="font-size:11px;color:#0080ff;"></i> Dashboard & CRUD operations</li>
+                                <li style="display:flex;align-items:center;gap:8px;font-size:13px;color:#c6d2d8;"><i class="fa-solid fa-check" style="font-size:11px;color:#0080ff;"></i> Responsive design</li>
                             </ul>
-                            <!-- Tags -->
-                            <div class="mt-[16px] flex flex-wrap gap-[6px]">
-                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#52a8ff]" style="background:rgba(0,128,255,0.12);border:1px solid rgba(0,128,255,0.2);">React.js</span>
-                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#52a8ff]" style="background:rgba(0,128,255,0.12);border:1px solid rgba(0,128,255,0.2);">Tailwind CSS</span>
-                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#52a8ff]" style="background:rgba(0,128,255,0.12);border:1px solid rgba(0,128,255,0.2);">CRUD</span>
-                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#52a8ff]" style="background:rgba(0,128,255,0.12);border:1px solid rgba(0,128,255,0.2);">Git</span>
+                            <div style="margin-top:16px;display:flex;flex-wrap:wrap;gap:6px;">
+                                <span style="border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#52a8ff;background:rgba(0,128,255,0.12);border:1px solid rgba(0,128,255,0.25);">React.js</span>
+                                <span style="border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#52a8ff;background:rgba(0,128,255,0.12);border:1px solid rgba(0,128,255,0.25);">Tailwind CSS</span>
+                                <span style="border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#52a8ff;background:rgba(0,128,255,0.12);border:1px solid rgba(0,128,255,0.25);">CRUD</span>
+                                <span style="border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#52a8ff;background:rgba(0,128,255,0.12);border:1px solid rgba(0,128,255,0.25);">Git</span>
                             </div>
-                            <!-- Button -->
-                            <a href="https://najotedu.vercel.app/" target="_blank" class="mt-[18px] flex items-center justify-center gap-[8px] rounded-[14px] py-[11px] text-[14px] font-bold text-white transition-all duration-300 hover:brightness-110 hover:shadow-lg" style="background:linear-gradient(135deg,#0080ff 0%,#0059b3 100%);box-shadow:0 6px 18px rgba(0,128,255,0.3);">
-                                <i class="fa-solid fa-eye text-[13px]"></i> Live Demo
+                            <a href="https://najotedu.vercel.app/" target="_blank" style="margin-top:18px;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:14px;padding:11px;font-size:14px;font-weight:700;color:#fff;text-decoration:none;background:linear-gradient(135deg,#0080ff 0%,#0059b3 100%);box-shadow:0 6px 18px rgba(0,128,255,0.35);border:1px solid rgba(255,255,255,0.12);transition:filter 0.3s;">
+                                <i class="fa-solid fa-eye" style="font-size:13px;"></i> Live Demo
                             </a>
                         </div>
                     </article>
 
                     <!-- Movies App -->
-                    <article class="project-card reveal-up rounded-[28px] border border-[#1e2d38] overflow-hidden flex flex-col">
-                        <div class="relative h-[140px] flex items-center justify-center overflow-hidden" style="background: linear-gradient(135deg, #140a28 0%, #1e0d40 50%, #0f0620 100%);">
-                            <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 50%, rgba(130,0,255,0.2) 0%, transparent 60%), radial-gradient(circle at 80% 20%, rgba(180,100,255,0.12) 0%, transparent 50%);"></div>
-                            <div class="relative z-10 flex flex-col items-center gap-[10px]">
-                                <div style="width:62px;height:62px;border-radius:18px;background:rgba(130,0,255,0.15);border:1px solid rgba(130,0,255,0.35);display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px rgba(130,0,255,0.3);">
-                                    <i class="fa-solid fa-film text-[28px] text-[#b47fff]"></i>
+                    <article class="project-card reveal-up" style="border-radius:28px;border:1px solid #1e2d38;overflow:hidden;display:flex;flex-direction:column;">
+                        <div style="position:relative;height:150px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(135deg,#140a28 0%,#1e0d40 50%,#0f0620 100%);border-bottom:1px solid rgba(123,0,255,0.2);">
+                            <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 50%,rgba(130,0,255,0.2) 0%,transparent 60%),radial-gradient(circle at 80% 20%,rgba(180,100,255,0.12) 0%,transparent 50%);"></div>
+                            <div style="position:relative;z-index:10;">
+                                <div style="width:62px;height:62px;border-radius:18px;background:rgba(130,0,255,0.15);border:1px solid rgba(130,0,255,0.4);display:flex;align-items:center;justify-content:center;box-shadow:0 0 28px rgba(130,0,255,0.4);">
+                                    <i class="fa-solid fa-film" style="font-size:26px;color:#b47fff;"></i>
                                 </div>
                             </div>
-                            <span class="absolute top-[14px] left-[16px] rounded-[999px] px-[12px] py-[5px] text-[11px] font-bold uppercase tracking-[1.5px] text-white" style="background:#7b00ff;">Movies App</span>
-                            <div class="absolute top-[14px] right-[14px] flex items-center gap-[10px]">
-                                <a href="https://github.com/omaryazliyev2004-op/movies" target="_blank" class="w-[32px] h-[32px] rounded-[10px] flex items-center justify-center transition-all duration-200 hover:bg-white/10" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);">
-                                    <i class="fa-brands fa-github text-[16px] text-[#b9c7cf]"></i>
+                            <span style="position:absolute;top:14px;left:16px;border-radius:999px;background:#7b00ff;padding:5px 12px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#fff;">Movies App</span>
+                            <div style="position:absolute;top:14px;right:14px;display:flex;align-items:center;gap:8px;">
+                                <a href="https://github.com/omaryazliyev2004-op/movies" target="_blank" style="width:32px;height:32px;border-radius:10px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;">
+                                    <i class="fa-brands fa-github" style="font-size:16px;color:#b9c7cf;"></i>
                                 </a>
-                                <a href="https://movies-ivory-three.vercel.app/" target="_blank" class="w-[32px] h-[32px] rounded-[10px] flex items-center justify-center transition-all duration-200 hover:bg-white/10" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);">
-                                    <i class="fa-solid fa-arrow-up-right-from-square text-[13px] text-[#b9c7cf]"></i>
+                                <a href="https://movies-ivory-three.vercel.app/" target="_blank" style="width:32px;height:32px;border-radius:10px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;">
+                                    <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:13px;color:#b9c7cf;"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="p-[22px] flex flex-col flex-1">
-                            <h3 class="text-[20px] font-bold text-white leading-[1.3]">Movies App — Film Qidirish Ilovasi</h3>
-                            <p class="mt-[10px] text-[14px] leading-[24px] text-[#9fb0bb]">Kinolarni qidirish va ko'rish uchun yaratilgan REST API asosidagi web-ilova.</p>
-                            <ul class="mt-[14px] flex flex-col gap-[6px]">
-                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#7b00ff] text-[11px]"></i> Movie search & details</li>
-                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#7b00ff] text-[11px]"></i> Category filtering</li>
-                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#7b00ff] text-[11px]"></i> Responsive design</li>
+                        <div style="padding:22px;display:flex;flex-direction:column;flex:1;">
+                            <h3 style="font-size:20px;font-weight:700;color:#fff;line-height:1.3;">Movies App — Film Qidirish Ilovasi</h3>
+                            <p style="margin-top:10px;font-size:14px;line-height:24px;color:#9fb0bb;">Kinolarni qidirish va ko'rish uchun yaratilgan REST API asosidagi web-ilova.</p>
+                            <ul style="margin-top:14px;display:flex;flex-direction:column;gap:8px;">
+                                <li style="display:flex;align-items:center;gap:8px;font-size:13px;color:#c6d2d8;"><i class="fa-solid fa-check" style="font-size:11px;color:#9b40ff;"></i> Movie search & details</li>
+                                <li style="display:flex;align-items:center;gap:8px;font-size:13px;color:#c6d2d8;"><i class="fa-solid fa-check" style="font-size:11px;color:#9b40ff;"></i> Category filtering</li>
+                                <li style="display:flex;align-items:center;gap:8px;font-size:13px;color:#c6d2d8;"><i class="fa-solid fa-check" style="font-size:11px;color:#9b40ff;"></i> Responsive design</li>
                             </ul>
-                            <div class="mt-[16px] flex flex-wrap gap-[6px]">
-                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#b47fff]" style="background:rgba(130,0,255,0.12);border:1px solid rgba(130,0,255,0.25);">React.js</span>
-                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#b47fff]" style="background:rgba(130,0,255,0.12);border:1px solid rgba(130,0,255,0.25);">Tailwind CSS</span>
-                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#b47fff]" style="background:rgba(130,0,255,0.12);border:1px solid rgba(130,0,255,0.25);">REST API</span>
-                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#b47fff]" style="background:rgba(130,0,255,0.12);border:1px solid rgba(130,0,255,0.25);">Git</span>
+                            <div style="margin-top:16px;display:flex;flex-wrap:wrap;gap:6px;">
+                                <span style="border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#b47fff;background:rgba(130,0,255,0.12);border:1px solid rgba(130,0,255,0.3);">React.js</span>
+                                <span style="border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#b47fff;background:rgba(130,0,255,0.12);border:1px solid rgba(130,0,255,0.3);">Tailwind CSS</span>
+                                <span style="border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#b47fff;background:rgba(130,0,255,0.12);border:1px solid rgba(130,0,255,0.3);">REST API</span>
+                                <span style="border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#b47fff;background:rgba(130,0,255,0.12);border:1px solid rgba(130,0,255,0.3);">Git</span>
                             </div>
-                            <a href="https://movies-ivory-three.vercel.app/" target="_blank" class="mt-[18px] flex items-center justify-center gap-[8px] rounded-[14px] py-[11px] text-[14px] font-bold text-white transition-all duration-300 hover:brightness-110 hover:shadow-lg" style="background:linear-gradient(135deg,#7b00ff 0%,#5500b3 100%);box-shadow:0 6px 18px rgba(123,0,255,0.3);">
-                                <i class="fa-solid fa-eye text-[13px]"></i> Live Demo
+                            <a href="https://movies-ivory-three.vercel.app/" target="_blank" style="margin-top:18px;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:14px;padding:11px;font-size:14px;font-weight:700;color:#fff;text-decoration:none;background:linear-gradient(135deg,#7b00ff 0%,#5500b3 100%);box-shadow:0 6px 18px rgba(123,0,255,0.35);border:1px solid rgba(255,255,255,0.12);">
+                                <i class="fa-solid fa-eye" style="font-size:13px;"></i> Live Demo
                             </a>
                         </div>
                     </article>
 
                     <!-- E-Commerce -->
-                    <article class="project-card reveal-up rounded-[28px] border border-[#1e2d38] overflow-hidden flex flex-col md:col-span-2 xl:col-span-1">
-                        <div class="relative h-[140px] flex items-center justify-center overflow-hidden" style="background: linear-gradient(135deg, #0a2010 0%, #0d3020 50%, #061808 100%);">
-                            <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 50%, rgba(0,200,80,0.2) 0%, transparent 60%), radial-gradient(circle at 80% 20%, rgba(0,255,100,0.12) 0%, transparent 50%);"></div>
-                            <div class="relative z-10 flex flex-col items-center gap-[10px]">
-                                <div style="width:62px;height:62px;border-radius:18px;background:rgba(0,200,80,0.15);border:1px solid rgba(0,200,80,0.35);display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px rgba(0,200,80,0.3);">
-                                    <i class="fa-solid fa-cart-shopping text-[28px] text-[#4ade80]"></i>
+                    <article class="project-card reveal-up" style="border-radius:28px;border:1px solid #1e2d38;overflow:hidden;display:flex;flex-direction:column;">
+                        <div style="position:relative;height:150px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(135deg,#0a2010 0%,#0d3020 50%,#061808 100%);border-bottom:1px solid rgba(0,200,80,0.2);">
+                            <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 50%,rgba(0,200,80,0.2) 0%,transparent 60%),radial-gradient(circle at 80% 20%,rgba(0,255,100,0.12) 0%,transparent 50%);"></div>
+                            <div style="position:relative;z-index:10;">
+                                <div style="width:62px;height:62px;border-radius:18px;background:rgba(0,200,80,0.15);border:1px solid rgba(0,200,80,0.4);display:flex;align-items:center;justify-content:center;box-shadow:0 0 28px rgba(0,200,80,0.4);">
+                                    <i class="fa-solid fa-cart-shopping" style="font-size:26px;color:#4ade80;"></i>
                                 </div>
                             </div>
-                            <span class="absolute top-[14px] left-[16px] rounded-[999px] px-[12px] py-[5px] text-[11px] font-bold uppercase tracking-[1.5px] text-white" style="background:#16a34a;">E-Commerce</span>
-                            <div class="absolute top-[14px] right-[14px] flex items-center gap-[10px]">
-                                <a href="https://github.com/omaryazliyev2004-op/ecommerce-react" target="_blank" class="w-[32px] h-[32px] rounded-[10px] flex items-center justify-center transition-all duration-200 hover:bg-white/10" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);">
-                                    <i class="fa-brands fa-github text-[16px] text-[#b9c7cf]"></i>
+                            <span style="position:absolute;top:14px;left:16px;border-radius:999px;background:#16a34a;padding:5px 12px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#fff;">E-Commerce</span>
+                            <div style="position:absolute;top:14px;right:14px;display:flex;align-items:center;gap:8px;">
+                                <a href="https://github.com/omaryazliyev2004-op/ecommerce-react" target="_blank" style="width:32px;height:32px;border-radius:10px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;">
+                                    <i class="fa-brands fa-github" style="font-size:16px;color:#b9c7cf;"></i>
                                 </a>
-                                <a href="https://ecommerce-react-irx2.vercel.app/" target="_blank" class="w-[32px] h-[32px] rounded-[10px] flex items-center justify-center transition-all duration-200 hover:bg-white/10" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);">
-                                    <i class="fa-solid fa-arrow-up-right-from-square text-[13px] text-[#b9c7cf]"></i>
+                                <a href="https://ecommerce-react-irx2.vercel.app/" target="_blank" style="width:32px;height:32px;border-radius:10px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;">
+                                    <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:13px;color:#b9c7cf;"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="p-[22px] flex flex-col flex-1">
-                            <h3 class="text-[20px] font-bold text-white leading-[1.3]">E-Commerce — Onlayn Do'kon Ilovasi</h3>
-                            <p class="mt-[10px] text-[14px] leading-[24px] text-[#9fb0bb]">Mahsulotlar katalogi, qidirish va savat funksiyalari bilan to'liq onlayn savdo ilovasi.</p>
-                            <ul class="mt-[14px] flex flex-col gap-[6px]">
-                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#16a34a] text-[11px]"></i> Product catalog & search</li>
-                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#16a34a] text-[11px]"></i> Shopping cart</li>
-                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#16a34a] text-[11px]"></i> Filtering & responsive design</li>
+                        <div style="padding:22px;display:flex;flex-direction:column;flex:1;">
+                            <h3 style="font-size:20px;font-weight:700;color:#fff;line-height:1.3;">E-Commerce — Onlayn Do'kon Ilovasi</h3>
+                            <p style="margin-top:10px;font-size:14px;line-height:24px;color:#9fb0bb;">Mahsulotlar katalogi, qidirish va savat funksiyalari bilan to'liq onlayn savdo ilovasi.</p>
+                            <ul style="margin-top:14px;display:flex;flex-direction:column;gap:8px;">
+                                <li style="display:flex;align-items:center;gap:8px;font-size:13px;color:#c6d2d8;"><i class="fa-solid fa-check" style="font-size:11px;color:#16a34a;"></i> Product catalog & search</li>
+                                <li style="display:flex;align-items:center;gap:8px;font-size:13px;color:#c6d2d8;"><i class="fa-solid fa-check" style="font-size:11px;color:#16a34a;"></i> Shopping cart</li>
+                                <li style="display:flex;align-items:center;gap:8px;font-size:13px;color:#c6d2d8;"><i class="fa-solid fa-check" style="font-size:11px;color:#16a34a;"></i> Filtering & responsive design</li>
                             </ul>
-                            <div class="mt-[16px] flex flex-wrap gap-[6px]">
-                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#4ade80]" style="background:rgba(0,200,80,0.12);border:1px solid rgba(0,200,80,0.25);">React.js</span>
-                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#4ade80]" style="background:rgba(0,200,80,0.12);border:1px solid rgba(0,200,80,0.25);">Tailwind CSS</span>
-                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#4ade80]" style="background:rgba(0,200,80,0.12);border:1px solid rgba(0,200,80,0.25);">REST API</span>
-                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#4ade80]" style="background:rgba(0,200,80,0.12);border:1px solid rgba(0,200,80,0.25);">Cart</span>
+                            <div style="margin-top:16px;display:flex;flex-wrap:wrap;gap:6px;">
+                                <span style="border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#4ade80;background:rgba(0,200,80,0.12);border:1px solid rgba(0,200,80,0.3);">React.js</span>
+                                <span style="border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#4ade80;background:rgba(0,200,80,0.12);border:1px solid rgba(0,200,80,0.3);">Tailwind CSS</span>
+                                <span style="border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#4ade80;background:rgba(0,200,80,0.12);border:1px solid rgba(0,200,80,0.3);">REST API</span>
+                                <span style="border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#4ade80;background:rgba(0,200,80,0.12);border:1px solid rgba(0,200,80,0.3);">Cart</span>
                             </div>
-                            <a href="https://ecommerce-react-irx2.vercel.app/" target="_blank" class="mt-[18px] flex items-center justify-center gap-[8px] rounded-[14px] py-[11px] text-[14px] font-bold text-white transition-all duration-300 hover:brightness-110 hover:shadow-lg" style="background:linear-gradient(135deg,#16a34a 0%,#0d6b30 100%);box-shadow:0 6px 18px rgba(22,163,74,0.3);">
-                                <i class="fa-solid fa-eye text-[13px]"></i> Live Demo
+                            <a href="https://ecommerce-react-irx2.vercel.app/" target="_blank" style="margin-top:18px;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:14px;padding:11px;font-size:14px;font-weight:700;color:#fff;text-decoration:none;background:linear-gradient(135deg,#16a34a 0%,#0d6b30 100%);box-shadow:0 6px 18px rgba(22,163,74,0.35);border:1px solid rgba(255,255,255,0.12);">
+                                <i class="fa-solid fa-eye" style="font-size:13px;"></i> Live Demo
                             </a>
                         </div>
                     </article>
