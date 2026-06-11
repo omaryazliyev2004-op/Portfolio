@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="overflow-x-hidden bg-[#1c2226] text-white">
+    <div class="page-bg">
+        <div class="bg-ambient bg-ambient-one"></div>
+        <div class="bg-ambient bg-ambient-two"></div>
+        <div class="bg-ambient bg-ambient-three"></div>
+        <div class="container pt-[35px] sm:pt-[53px]">
+            <header class="glass-panel reveal-up fixed left-1/2 top-[2px] z-50 flex w-[calc(100%-40px)] max-w-[1200px] -translate-x-1/2 items-center justify-between rounded-[24px] px-[18px] py-[16px] sm:top-[4px] sm:w-[calc(100%-40px)] sm:px-[24px]">
+                <div>
+                    <a href="#home">
+                        <img src="/images/logo-omar.svg" alt="Omar logo" class="w-[180px] sm:w-[220px]">
+                    </a>
+                </div>
+                <div class="hidden vv:flex items-center gap-[76px]">
+                    <a class="nav-item font-bold text-xl text-white" href="#home">Home</a>
+                    <a class="nav-item font-bold text-xl text-white" href="#education">About</a>
+                    <a class="nav-item font-bold text-xl text-white" href="#skills">Skills</a>
+                    <a class="nav-item font-bold text-xl text-white" href="#projects">Portfolio</a>
+                    <a class="nav-item font-bold text-xl text-white" href="#contact">Contact</a>
+                </div>
+                <button id="menu-toggle" class="menu-toggle vv:!hidden" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <i class="fa-solid fa-bars text-[28px]" style="color: #0080FF;"></i>
+                </button>
+            </header>
+            <div id="mobile-menu" class="mobile-menu vv:!hidden">
+                <a class="mobile-link" href="#home">Home</a>
+                <a class="mobile-link" href="#education">About</a>
+                <a class="mobile-link" href="#skills">Skills</a>
+                <a class="mobile-link" href="#projects">Portfolio</a>
+                <a class="mobile-link" href="#contact">Contact</a>
+            </div>
+            <div class="h-[86px] sm:h-[90px]"></div>
+            <div id="home" class="mt-[80px] flex flex-col-reverse items-center justify-between gap-[40px] qq:mt-[120px] qq:flex-row">
+                <div class="reveal-up mt-[10px] sm:mt-[30px] qq:mt-[50px]">
+                    <p class="text-[24px] font-bold text-white sm:text-[32px]">Hello its Me </p>
+                    <h1 class="mt-[13px] text-[42px] font-bold leading-[1.05] text-white sm:text-[64px]">Yazliyev Omar</h1>
+                    <p class="mt-[24px] text-[24px] font-bold text-white sm:text-[32px]">And Im a </p>
+                    <p class="mt-[24px] max-w-[605px] text-[18px] leading-[32px] font-normal text-white sm:text-xl">Uzbekistan-based Front-End
+                        Developer focused on creating accessible, responsive, and user-friendly digital experiences.</p>
+                    <div class="mt-[24px] flex items-center gap-[18px] sm:gap-[25px]">
+                        <div>
+                            <a class="social-chip" href="https://t.me/yazliyev_04">
+                                <i class="text-[30px] fa-brands fa-telegram" style="color: #0080FF;"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="social-chip" href="https://instagram.com/yazliyev_omar">
+                                <i class="text-[30px] fa-brands fa-instagram" style="color: #0080FF;"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="social-chip" href="https://wa.me/998938749060?text=Hello">
+                                <i class="text-[30px] fa-brands fa-whatsapp" style="color: #0080FF;"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="social-chip" href="tel:+998938749060">
+                                <i class="text-[30px] fa-solid fa-phone" style="color: #0080FF;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mt-[40px]">
+                        <button class="btn">Download CV</button>
+                    </div>
+                </div>
+                <div class="reveal-scale relative mt-[-20px] sm:mt-[-60px] qq:mt-[-110px]">
+                    <div class="hero-orbit"></div>
+                    <img class="image float-image max-w-[320px] min-h-[320px] rounded-[50%] sm:max-w-[414px] sm:min-h-[406px]" src="/images/hero.png" alt="">
+                </div>
+            </div>
+            <section id="education" class="mt-[90px] scroll-mt-[40px] pb-[60px] sm:mt-[110px]">
+                <div class="glass-panel reveal-up rounded-[28px] border border-[#2c3942] p-[20px] sm:p-[28px] qq:p-[36px]">
+                    <div class="mb-[30px]">
+                        <p class="inline-block rounded-[999px] border border-[#0080ff] bg-[#0080ff1a] px-[16px] py-[8px] text-[12px] font-bold uppercase tracking-[2px] text-[#52a8ff]">About / Education</p>
+                        <h2 class="mt-[18px] text-[30px] font-bold text-white sm:text-[38px]">My learning journey</h2>
+                        <p class="mt-[16px] max-w-[760px] text-[16px] leading-[28px] text-[#b9c7cf] sm:text-[18px]">I am consistently building my front-end foundation through university studies and practical training.</p>
+                    </div>
+
+                    <div class="flex flex-col gap-[20px]">
+                        <article class="education-card reveal-up flex flex-col gap-[18px] rounded-[24px] border border-[#31414b] p-[18px] sm:p-[24px] qq:flex-row qq:items-start qq:gap-[28px]">
+                            <div class="flex min-w-[150px] items-center gap-[10px] qq:flex-col qq:items-start qq:gap-[14px]">
+                                <span class="rounded-[12px] bg-[#0080ff] px-[18px] py-[10px] text-[18px] font-bold text-white">2022</span>
+                                <span class="text-[20px] font-bold text-[#52a8ff]">-</span>
+                                <span class="rounded-[12px] border border-[#0080ff] px-[18px] py-[10px] text-[18px] font-bold text-white">2027</span>
+                            </div>
+                            <div>
+                                <h3 class="text-[22px] font-bold text-white sm:text-[26px]">Uzbekistan Tashkent Amaliy Fanlar Universiteti</h3>
+                                <p class="mt-[14px] text-[16px] leading-[28px] text-[#c6d2d8]">I studied in the Computer Engineering direction, building a strong academic base in technology, systems thinking, and professional growth.</p>
+                            </div>
+                        </article>
+
+                        <article class="education-card reveal-up flex flex-col gap-[18px] rounded-[24px] border border-[#31414b] p-[18px] sm:p-[24px] qq:flex-row qq:items-start qq:gap-[28px]">
+                            <div class="min-w-[150px]">
+                                <span class="inline-block rounded-[12px] bg-[#0080ff] px-[18px] py-[10px] text-[18px] font-bold text-white">2025</span>
+                            </div>
+                            <div>
+                                <h3 class="text-[22px] font-bold text-white sm:text-[26px]">Najot Ta'lim O'quv Markazi</h3>
+                                <p class="mt-[14px] text-[16px] leading-[28px] text-[#c6d2d8]">I studied in the Frontend direction, where I strengthened my HTML, CSS, Tailwind, and interface-building skills through practical lessons.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="mt-[10px] scroll-mt-[40px] pb-[40px] sm:mt-[20px]">
+                <div class="mb-[26px] reveal-up">
+                    <p class="inline-block rounded-[999px] border border-[#0080ff] bg-[#0080ff1a] px-[16px] py-[8px] text-[12px] font-bold uppercase tracking-[2px] text-[#52a8ff]">Core / Skills</p>
+                    <h2 class="mt-[18px] text-[30px] font-bold text-white sm:text-[38px]">Technologies I work with</h2>
+                    <p class="mt-[16px] max-w-[760px] text-[16px] leading-[28px] text-[#b9c7cf] sm:text-[18px]">These are the main tools I use while building responsive interfaces and modern frontend layouts.</p>
+                </div>
+
+                <div class="grid gap-[18px] sm:grid-cols-2 xl:grid-cols-5">
+                    <article class="skill-card reveal-up rounded-[24px] border border-[#31414b] p-[22px] text-center">
+                        <i class="fa-brands fa-html5 text-[46px] text-[#ff7a36]"></i>
+                        <h3 class="mt-[16px] text-[22px] font-bold text-white">HTML</h3>
+                        <p class="mt-[10px] text-[15px] leading-[26px] text-[#c6d2d8]">Semantic and clean page structure.</p>
+                    </article>
+
+                    <article class="skill-card reveal-up rounded-[24px] border border-[#31414b] p-[22px] text-center">
+                        <i class="fa-brands fa-css3-alt text-[46px] text-[#42a5ff]"></i>
+                        <h3 class="mt-[16px] text-[22px] font-bold text-white">CSS</h3>
+                        <p class="mt-[10px] text-[15px] leading-[26px] text-[#c6d2d8]">Styling, layout control, and responsive design.</p>
+                    </article>
+
+                    <article class="skill-card reveal-up rounded-[24px] border border-[#31414b] p-[22px] text-center">
+                        <i class="fa-brands fa-js text-[46px] text-[#ffd43b]"></i>
+                        <h3 class="mt-[16px] text-[22px] font-bold text-white">JavaScript</h3>
+                        <p class="mt-[10px] text-[15px] leading-[26px] text-[#c6d2d8]">Interactive behaviors and dynamic UI logic.</p>
+                    </article>
+
+                    <article class="skill-card reveal-up rounded-[24px] border border-[#31414b] p-[22px] text-center">
+                        <i class="fa-brands fa-react text-[46px] text-[#61dafb]"></i>
+                        <h3 class="mt-[16px] text-[22px] font-bold text-white">React</h3>
+                        <p class="mt-[10px] text-[15px] leading-[26px] text-[#c6d2d8]">Component-based frontend development.</p>
+                    </article>
+
+                    <article class="skill-card reveal-up rounded-[24px] border border-[#31414b] p-[22px] text-center sm:col-span-2 xl:col-span-1">
+                        <i class="fa-solid fa-wind text-[46px] text-[#52e1ff]"></i>
+                        <h3 class="mt-[16px] text-[22px] font-bold text-white">Tailwind</h3>
+                        <p class="mt-[10px] text-[15px] leading-[26px] text-[#c6d2d8]">Fast utility-based UI styling workflow.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="projects" class="mt-[30px] scroll-mt-[40px] pb-[80px] sm:mt-[50px]">
+                <div class="mb-[26px] reveal-up">
+                    <p class="inline-block rounded-[999px] border border-[#0080ff] bg-[#0080ff1a] px-[16px] py-[8px] text-[12px] font-bold uppercase tracking-[2px] text-[#52a8ff]">Portfolio / Projects</p>
+                    <h2 class="mt-[18px] text-[30px] font-bold text-white sm:text-[38px]">Some projects I can proudly show</h2>
+                    <p class="mt-[16px] max-w-[760px] text-[16px] leading-[28px] text-[#b9c7cf] sm:text-[18px]">Here are some styles of projects I have worked on while improving my frontend skills and responsive design approach.</p>
+                </div>
+
+                <div class="grid gap-[20px] md:grid-cols-2 xl:grid-cols-3">
+                    <article class="project-card reveal-up rounded-[26px] border border-[#31414b] p-[20px] sm:p-[24px]">
+                        <div class="mb-[18px] flex items-center justify-between">
+                            <span class="rounded-[999px] bg-[#0080ff] px-[14px] py-[7px] text-[12px] font-bold uppercase tracking-[1.5px] text-white">Landing Page</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[20px] text-[#52a8ff]"></i>
+                        </div>
+                        <h3 class="text-[24px] font-bold text-white">Modern Business Website</h3>
+                        <p class="mt-[14px] text-[16px] leading-[28px] text-[#c6d2d8]">A clean and modern website layout focused on clear sections, strong CTA placement, and mobile responsiveness.</p>
+                        <div class="mt-[20px] flex flex-wrap gap-[10px]">
+                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[7px] text-[13px] text-[#dbe7ee]">HTML</span>
+                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[7px] text-[13px] text-[#dbe7ee]">CSS</span>
+                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[7px] text-[13px] text-[#dbe7ee]">Responsive</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal-up rounded-[26px] border border-[#31414b] p-[20px] sm:p-[24px]">
+                        <div class="mb-[18px] flex items-center justify-between">
+                            <span class="rounded-[999px] bg-[#0080ff] px-[14px] py-[7px] text-[12px] font-bold uppercase tracking-[1.5px] text-white">Portfolio</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[20px] text-[#52a8ff]"></i>
+                        </div>
+                        <h3 class="text-[24px] font-bold text-white">Personal Portfolio</h3>
+                        <p class="mt-[14px] text-[16px] leading-[28px] text-[#c6d2d8]">A personal portfolio page designed to present identity, education, and front-end growth in a clear visual structure.</p>
+                        <div class="mt-[20px] flex flex-wrap gap-[10px]">
+                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[7px] text-[13px] text-[#dbe7ee]">Tailwind</span>
+                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[7px] text-[13px] text-[#dbe7ee]">UI</span>
+                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[7px] text-[13px] text-[#dbe7ee]">Animation</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal-up rounded-[26px] border border-[#31414b] p-[20px] sm:p-[24px] md:col-span-2 xl:col-span-1">
+                        <div class="mb-[18px] flex items-center justify-between">
+                            <span class="rounded-[999px] bg-[#0080ff] px-[14px] py-[7px] text-[12px] font-bold uppercase tracking-[1.5px] text-white">Practice Project</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[20px] text-[#52a8ff]"></i>
+                        </div>
+                        <h3 class="text-[24px] font-bold text-white">Frontend Training Project</h3>
+                        <p class="mt-[14px] text-[16px] leading-[28px] text-[#c6d2d8]">A practical project built during learning to improve layout accuracy, component spacing, and modern section composition.</p>
+                        <div class="mt-[20px] flex flex-wrap gap-[10px]">
+                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[7px] text-[13px] text-[#dbe7ee]">JavaScript</span>
+                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[7px] text-[13px] text-[#dbe7ee]">Frontend</span>
+                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[7px] text-[13px] text-[#dbe7ee]">Practice</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="contact" class="mt-[10px] scroll-mt-[40px] pb-[80px] sm:mt-[20px]">
+                <div class="glass-panel reveal-up rounded-[28px] border border-[#2c3942] p-[20px] sm:p-[28px] qq:p-[36px]">
+                    <div class="mb-[26px]">
+                        <p class="inline-block rounded-[999px] border border-[#0080ff] bg-[#0080ff1a] px-[16px] py-[8px] max-w-max text-[12px] font-bold uppercase tracking-[2px] text-[#52a8ff]">Get In Touch</p>
+                        <h2 class="mt-[18px] text-[30px] font-bold text-white sm:text-[38px]">Lets work together</h2>
+                        <p class="mt-[16px] max-w-[760px] text-[16px] leading-[28px] text-[#b9c7cf] sm:text-[18px]">If you need a responsive website, portfolio, or frontend help, you can contact me through the channels below.</p>
+                    </div>
+
+                    <div class="grid gap-[18px] md:grid-cols-2">
+                        <a href="mailto:yazliyevomar@gmail.com" class="contact-card rounded-[24px] border border-[#31414b] p-[22px]">
+                            <div class="flex items-center gap-[14px]">
+                                <span class="contact-icon">
+                                    <i class="fa-solid fa-envelope text-[22px] text-[#52a8ff]"></i>
+                                </span>
+                                <div>
+                                    <p class="text-[14px] font-medium text-[#9fb0bb]">Email</p>
+                                    <h3 class="mt-[4px] text-[20px] font-bold text-white">yazliyevomar@gmail.com</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="tel:+998938749060" class="contact-card rounded-[24px] border border-[#31414b] p-[22px]">
+                            <div class="flex items-center gap-[14px]">
+                                <span class="contact-icon">
+                                    <i class="fa-solid fa-phone text-[22px] text-[#52a8ff]"></i>
+                                </span>
+                                <div>
+                                    <p class="text-[14px] font-medium text-[#9fb0bb]">Phone</p>
+                                    <h3 class="mt-[4px] text-[20px] font-bold text-white">+998 93 874 90 60</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://t.me/yazliyev_04" class="contact-card rounded-[24px] border border-[#31414b] p-[22px]">
+                            <div class="flex items-center gap-[14px]">
+                                <span class="contact-icon">
+                                    <i class="fa-brands fa-telegram text-[22px] text-[#52a8ff]"></i>
+                                </span>
+                                <div>
+                                    <p class="text-[14px] font-medium text-[#9fb0bb]">Telegram</p>
+                                    <h3 class="mt-[4px] text-[20px] font-bold text-white">@yazliyev_04</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://instagram.com/yazliyev_omar" class="contact-card rounded-[24px] border border-[#31414b] p-[22px]">
+                            <div class="flex items-center gap-[14px]">
+                                <span class="contact-icon">
+                                    <i class="fa-brands fa-instagram text-[22px] text-[#52a8ff]"></i>
+                                </span>
+                                <div>
+                                    <p class="text-[14px] font-medium text-[#9fb0bb]">Instagram</p>
+                                    <h3 class="mt-[4px] text-[20px] font-bold text-white">@yazliyev_omar</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+<script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const mobileLinks = document.querySelectorAll(".mobile-link");
+
+    if (menuToggle && mobileMenu) {
+        menuToggle.addEventListener("click", () => {
+            const isOpen = mobileMenu.classList.toggle("is-open");
+            menuToggle.setAttribute("aria-expanded", String(isOpen));
+            const icon = menuToggle.querySelector("i");
+            if (icon) {
+                icon.classList.toggle("fa-bars", !isOpen);
+                icon.classList.toggle("fa-xmark", isOpen);
+            }
+        });
+
+        mobileLinks.forEach((link) => {
+            link.addEventListener("click", () => {
+                mobileMenu.classList.remove("is-open");
+                menuToggle.setAttribute("aria-expanded", "false");
+                const icon = menuToggle.querySelector("i");
+                if (icon) {
+                    icon.classList.add("fa-bars");
+                    icon.classList.remove("fa-xmark");
+                }
+            });
+        });
+    }
+</script>
+
+</html>

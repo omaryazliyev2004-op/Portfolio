@@ -1,0 +1,17 @@
+<svg width="220" height="64" viewBox="0 0 220 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="omarText" x1="18" y1="18" x2="184" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="0.45" stop-color="#D8E9FF"/>
+      <stop offset="1" stop-color="#7CC8FF"/>
+    </linearGradient>
+    <filter id="textGlow" x="0" y="0" width="220" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#textGlow)">
+    <text x="14" y="43" fill="url(#omarText)" font-family="Georgia, Times New Roman, serif" font-size="34" font-style="italic" font-weight="700" letter-spacing="4">OMAR</text>
+  </g>
+</svg>
