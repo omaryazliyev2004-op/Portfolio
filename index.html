@@ -160,90 +160,134 @@
             </section>
 
             <section id="projects" class="mt-[30px] scroll-mt-[40px] pb-[80px] sm:mt-[50px]">
-                <div class="mb-[26px] reveal-up">
+                <div class="mb-[40px] reveal-up">
                     <p class="inline-block rounded-[999px] border border-[#0080ff] bg-[#0080ff1a] px-[16px] py-[8px] text-[12px] font-bold uppercase tracking-[2px] text-[#52a8ff]">Portfolio / Projects</p>
                     <h2 class="mt-[18px] text-[30px] font-bold text-white sm:text-[38px]">Some projects I can proudly show</h2>
                     <p class="mt-[16px] max-w-[760px] text-[16px] leading-[28px] text-[#b9c7cf] sm:text-[18px]">Here are real projects I have built — from ERP systems to e-commerce and movie apps.</p>
                 </div>
 
-                <div class="grid gap-[20px] md:grid-cols-2 xl:grid-cols-3">
+                <div class="grid gap-[24px] md:grid-cols-2 xl:grid-cols-3">
 
                     <!-- TM Edu -->
-                    <article class="project-card reveal-up rounded-[26px] border border-[#31414b] p-[20px] sm:p-[24px] flex flex-col">
-                        <div class="mb-[18px] flex items-center justify-between">
-                            <span class="rounded-[999px] bg-[#0080ff] px-[14px] py-[7px] text-[12px] font-bold uppercase tracking-[1.5px] text-white">ERP System</span>
-                            <div class="flex items-center gap-[12px]">
-                                <a href="https://github.com/omaryazliyev2004-op/TM-Edu" target="_blank" title="GitHub" class="text-[#52a8ff] hover:text-white transition-colors duration-200">
-                                    <i class="fa-brands fa-github text-[22px]"></i>
+                    <article class="project-card reveal-up rounded-[28px] border border-[#1e2d38] overflow-hidden flex flex-col">
+                        <!-- Card top banner -->
+                        <div class="relative h-[140px] flex items-center justify-center overflow-hidden" style="background: linear-gradient(135deg, #0a1628 0%, #0d2040 50%, #061830 100%);">
+                            <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 50%, rgba(0,128,255,0.25) 0%, transparent 60%), radial-gradient(circle at 80% 20%, rgba(82,168,255,0.15) 0%, transparent 50%);"></div>
+                            <div class="relative z-10 flex flex-col items-center gap-[10px]">
+                                <div style="width:62px;height:62px;border-radius:18px;background:rgba(0,128,255,0.15);border:1px solid rgba(0,128,255,0.35);display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px rgba(0,128,255,0.3);">
+                                    <i class="fa-solid fa-graduation-cap text-[28px] text-[#52a8ff]"></i>
+                                </div>
+                            </div>
+                            <span class="absolute top-[14px] left-[16px] rounded-[999px] bg-[#0080ff] px-[12px] py-[5px] text-[11px] font-bold uppercase tracking-[1.5px] text-white">ERP System</span>
+                            <div class="absolute top-[14px] right-[14px] flex items-center gap-[10px]">
+                                <a href="https://github.com/omaryazliyev2004-op/TM-Edu" target="_blank" class="w-[32px] h-[32px] rounded-[10px] flex items-center justify-center transition-all duration-200 hover:bg-white/10" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);">
+                                    <i class="fa-brands fa-github text-[16px] text-[#b9c7cf]"></i>
                                 </a>
-                                <a href="https://najotedu.vercel.app/" target="_blank" title="Live Demo" class="text-[#52a8ff] hover:text-white transition-colors duration-200">
-                                    <i class="fa-solid fa-arrow-up-right-from-square text-[18px]"></i>
+                                <a href="https://najotedu.vercel.app/" target="_blank" class="w-[32px] h-[32px] rounded-[10px] flex items-center justify-center transition-all duration-200 hover:bg-white/10" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);">
+                                    <i class="fa-solid fa-arrow-up-right-from-square text-[13px] text-[#b9c7cf]"></i>
                                 </a>
                             </div>
                         </div>
-                        <h3 class="text-[22px] font-bold text-white">TM Edu — Student & Teacher ERP</h3>
-                        <p class="mt-[12px] text-[15px] leading-[27px] text-[#c6d2d8] flex-1">Talabalar va o'qituvchilarni boshqarish uchun ishlab chiqilgan to'liq ERP tizimi. Dashboard, CRUD amaliyotlari va responsive dizayn bilan jihozlangan.</p>
-                        <div class="mt-[18px] flex flex-wrap gap-[8px]">
-                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[6px] text-[12px] text-[#dbe7ee]">React.js</span>
-                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[6px] text-[12px] text-[#dbe7ee]">Tailwind CSS</span>
-                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[6px] text-[12px] text-[#dbe7ee]">Git / GitHub</span>
-                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[6px] text-[12px] text-[#dbe7ee]">CRUD</span>
+                        <!-- Card body -->
+                        <div class="p-[22px] flex flex-col flex-1">
+                            <h3 class="text-[20px] font-bold text-white leading-[1.3]">TM Edu — Student & Teacher ERP</h3>
+                            <p class="mt-[10px] text-[14px] leading-[24px] text-[#9fb0bb]">Talabalar va o'qituvchilarni boshqarish uchun ishlab chiqilgan to'liq ERP tizimi.</p>
+                            <!-- Features -->
+                            <ul class="mt-[14px] flex flex-col gap-[6px]">
+                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#0080ff] text-[11px]"></i> Student & Teacher management</li>
+                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#0080ff] text-[11px]"></i> Dashboard & CRUD operations</li>
+                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#0080ff] text-[11px]"></i> Responsive design</li>
+                            </ul>
+                            <!-- Tags -->
+                            <div class="mt-[16px] flex flex-wrap gap-[6px]">
+                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#52a8ff]" style="background:rgba(0,128,255,0.12);border:1px solid rgba(0,128,255,0.2);">React.js</span>
+                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#52a8ff]" style="background:rgba(0,128,255,0.12);border:1px solid rgba(0,128,255,0.2);">Tailwind CSS</span>
+                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#52a8ff]" style="background:rgba(0,128,255,0.12);border:1px solid rgba(0,128,255,0.2);">CRUD</span>
+                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#52a8ff]" style="background:rgba(0,128,255,0.12);border:1px solid rgba(0,128,255,0.2);">Git</span>
+                            </div>
+                            <!-- Button -->
+                            <a href="https://najotedu.vercel.app/" target="_blank" class="mt-[18px] flex items-center justify-center gap-[8px] rounded-[14px] py-[11px] text-[14px] font-bold text-white transition-all duration-300 hover:brightness-110 hover:shadow-lg" style="background:linear-gradient(135deg,#0080ff 0%,#0059b3 100%);box-shadow:0 6px 18px rgba(0,128,255,0.3);">
+                                <i class="fa-solid fa-eye text-[13px]"></i> Live Demo
+                            </a>
                         </div>
-                        <a href="https://najotedu.vercel.app/" target="_blank" class="mt-[20px] flex items-center justify-center gap-[8px] rounded-[14px] border border-[#0080ff] py-[10px] text-[14px] font-bold text-[#52a8ff] transition-all duration-300 hover:bg-[#0080ff] hover:text-white">
-                            <i class="fa-solid fa-eye text-[14px]"></i> Live Demo
-                        </a>
                     </article>
 
                     <!-- Movies App -->
-                    <article class="project-card reveal-up rounded-[26px] border border-[#31414b] p-[20px] sm:p-[24px] flex flex-col">
-                        <div class="mb-[18px] flex items-center justify-between">
-                            <span class="rounded-[999px] bg-[#0080ff] px-[14px] py-[7px] text-[12px] font-bold uppercase tracking-[1.5px] text-white">Movies App</span>
-                            <div class="flex items-center gap-[12px]">
-                                <a href="https://github.com/omaryazliyev2004-op/movies" target="_blank" title="GitHub" class="text-[#52a8ff] hover:text-white transition-colors duration-200">
-                                    <i class="fa-brands fa-github text-[22px]"></i>
+                    <article class="project-card reveal-up rounded-[28px] border border-[#1e2d38] overflow-hidden flex flex-col">
+                        <div class="relative h-[140px] flex items-center justify-center overflow-hidden" style="background: linear-gradient(135deg, #140a28 0%, #1e0d40 50%, #0f0620 100%);">
+                            <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 50%, rgba(130,0,255,0.2) 0%, transparent 60%), radial-gradient(circle at 80% 20%, rgba(180,100,255,0.12) 0%, transparent 50%);"></div>
+                            <div class="relative z-10 flex flex-col items-center gap-[10px]">
+                                <div style="width:62px;height:62px;border-radius:18px;background:rgba(130,0,255,0.15);border:1px solid rgba(130,0,255,0.35);display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px rgba(130,0,255,0.3);">
+                                    <i class="fa-solid fa-film text-[28px] text-[#b47fff]"></i>
+                                </div>
+                            </div>
+                            <span class="absolute top-[14px] left-[16px] rounded-[999px] px-[12px] py-[5px] text-[11px] font-bold uppercase tracking-[1.5px] text-white" style="background:#7b00ff;">Movies App</span>
+                            <div class="absolute top-[14px] right-[14px] flex items-center gap-[10px]">
+                                <a href="https://github.com/omaryazliyev2004-op/movies" target="_blank" class="w-[32px] h-[32px] rounded-[10px] flex items-center justify-center transition-all duration-200 hover:bg-white/10" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);">
+                                    <i class="fa-brands fa-github text-[16px] text-[#b9c7cf]"></i>
                                 </a>
-                                <a href="https://movies-ivory-three.vercel.app/" target="_blank" title="Live Demo" class="text-[#52a8ff] hover:text-white transition-colors duration-200">
-                                    <i class="fa-solid fa-arrow-up-right-from-square text-[18px]"></i>
+                                <a href="https://movies-ivory-three.vercel.app/" target="_blank" class="w-[32px] h-[32px] rounded-[10px] flex items-center justify-center transition-all duration-200 hover:bg-white/10" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);">
+                                    <i class="fa-solid fa-arrow-up-right-from-square text-[13px] text-[#b9c7cf]"></i>
                                 </a>
                             </div>
                         </div>
-                        <h3 class="text-[22px] font-bold text-white">Movies App — Film Qidirish Ilovasi</h3>
-                        <p class="mt-[12px] text-[15px] leading-[27px] text-[#c6d2d8] flex-1">Kinolarni qidirish, ma'lumotlarni ko'rish va kategoriyalar bo'yicha filterlash imkoniyatiga ega REST API asosidagi web-ilova.</p>
-                        <div class="mt-[18px] flex flex-wrap gap-[8px]">
-                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[6px] text-[12px] text-[#dbe7ee]">React.js</span>
-                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[6px] text-[12px] text-[#dbe7ee]">Tailwind CSS</span>
-                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[6px] text-[12px] text-[#dbe7ee]">REST API</span>
-                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[6px] text-[12px] text-[#dbe7ee]">Git / GitHub</span>
+                        <div class="p-[22px] flex flex-col flex-1">
+                            <h3 class="text-[20px] font-bold text-white leading-[1.3]">Movies App — Film Qidirish Ilovasi</h3>
+                            <p class="mt-[10px] text-[14px] leading-[24px] text-[#9fb0bb]">Kinolarni qidirish va ko'rish uchun yaratilgan REST API asosidagi web-ilova.</p>
+                            <ul class="mt-[14px] flex flex-col gap-[6px]">
+                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#7b00ff] text-[11px]"></i> Movie search & details</li>
+                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#7b00ff] text-[11px]"></i> Category filtering</li>
+                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#7b00ff] text-[11px]"></i> Responsive design</li>
+                            </ul>
+                            <div class="mt-[16px] flex flex-wrap gap-[6px]">
+                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#b47fff]" style="background:rgba(130,0,255,0.12);border:1px solid rgba(130,0,255,0.25);">React.js</span>
+                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#b47fff]" style="background:rgba(130,0,255,0.12);border:1px solid rgba(130,0,255,0.25);">Tailwind CSS</span>
+                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#b47fff]" style="background:rgba(130,0,255,0.12);border:1px solid rgba(130,0,255,0.25);">REST API</span>
+                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#b47fff]" style="background:rgba(130,0,255,0.12);border:1px solid rgba(130,0,255,0.25);">Git</span>
+                            </div>
+                            <a href="https://movies-ivory-three.vercel.app/" target="_blank" class="mt-[18px] flex items-center justify-center gap-[8px] rounded-[14px] py-[11px] text-[14px] font-bold text-white transition-all duration-300 hover:brightness-110 hover:shadow-lg" style="background:linear-gradient(135deg,#7b00ff 0%,#5500b3 100%);box-shadow:0 6px 18px rgba(123,0,255,0.3);">
+                                <i class="fa-solid fa-eye text-[13px]"></i> Live Demo
+                            </a>
                         </div>
-                        <a href="https://movies-ivory-three.vercel.app/" target="_blank" class="mt-[20px] flex items-center justify-center gap-[8px] rounded-[14px] border border-[#0080ff] py-[10px] text-[14px] font-bold text-[#52a8ff] transition-all duration-300 hover:bg-[#0080ff] hover:text-white">
-                            <i class="fa-solid fa-eye text-[14px]"></i> Live Demo
-                        </a>
                     </article>
 
                     <!-- E-Commerce -->
-                    <article class="project-card reveal-up rounded-[26px] border border-[#31414b] p-[20px] sm:p-[24px] flex flex-col md:col-span-2 xl:col-span-1">
-                        <div class="mb-[18px] flex items-center justify-between">
-                            <span class="rounded-[999px] bg-[#0080ff] px-[14px] py-[7px] text-[12px] font-bold uppercase tracking-[1.5px] text-white">E-Commerce</span>
-                            <div class="flex items-center gap-[12px]">
-                                <a href="https://github.com/omaryazliyev2004-op/ecommerce-react" target="_blank" title="GitHub" class="text-[#52a8ff] hover:text-white transition-colors duration-200">
-                                    <i class="fa-brands fa-github text-[22px]"></i>
+                    <article class="project-card reveal-up rounded-[28px] border border-[#1e2d38] overflow-hidden flex flex-col md:col-span-2 xl:col-span-1">
+                        <div class="relative h-[140px] flex items-center justify-center overflow-hidden" style="background: linear-gradient(135deg, #0a2010 0%, #0d3020 50%, #061808 100%);">
+                            <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 50%, rgba(0,200,80,0.2) 0%, transparent 60%), radial-gradient(circle at 80% 20%, rgba(0,255,100,0.12) 0%, transparent 50%);"></div>
+                            <div class="relative z-10 flex flex-col items-center gap-[10px]">
+                                <div style="width:62px;height:62px;border-radius:18px;background:rgba(0,200,80,0.15);border:1px solid rgba(0,200,80,0.35);display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px rgba(0,200,80,0.3);">
+                                    <i class="fa-solid fa-cart-shopping text-[28px] text-[#4ade80]"></i>
+                                </div>
+                            </div>
+                            <span class="absolute top-[14px] left-[16px] rounded-[999px] px-[12px] py-[5px] text-[11px] font-bold uppercase tracking-[1.5px] text-white" style="background:#16a34a;">E-Commerce</span>
+                            <div class="absolute top-[14px] right-[14px] flex items-center gap-[10px]">
+                                <a href="https://github.com/omaryazliyev2004-op/ecommerce-react" target="_blank" class="w-[32px] h-[32px] rounded-[10px] flex items-center justify-center transition-all duration-200 hover:bg-white/10" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);">
+                                    <i class="fa-brands fa-github text-[16px] text-[#b9c7cf]"></i>
                                 </a>
-                                <a href="https://ecommerce-react-irx2.vercel.app/" target="_blank" title="Live Demo" class="text-[#52a8ff] hover:text-white transition-colors duration-200">
-                                    <i class="fa-solid fa-arrow-up-right-from-square text-[18px]"></i>
+                                <a href="https://ecommerce-react-irx2.vercel.app/" target="_blank" class="w-[32px] h-[32px] rounded-[10px] flex items-center justify-center transition-all duration-200 hover:bg-white/10" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);">
+                                    <i class="fa-solid fa-arrow-up-right-from-square text-[13px] text-[#b9c7cf]"></i>
                                 </a>
                             </div>
                         </div>
-                        <h3 class="text-[22px] font-bold text-white">E-Commerce — Onlayn Do'kon Ilovasi</h3>
-                        <p class="mt-[12px] text-[15px] leading-[27px] text-[#c6d2d8] flex-1">Mahsulotlar katalogi, qidirish va filterlash, savat funksiyalari bilan jihozlangan to'liq onlayn savdo ilovasi.</p>
-                        <div class="mt-[18px] flex flex-wrap gap-[8px]">
-                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[6px] text-[12px] text-[#dbe7ee]">React.js</span>
-                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[6px] text-[12px] text-[#dbe7ee]">Tailwind CSS</span>
-                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[6px] text-[12px] text-[#dbe7ee]">REST API</span>
-                            <span class="rounded-[999px] border border-[#39505d] px-[12px] py-[6px] text-[12px] text-[#dbe7ee]">Shopping Cart</span>
+                        <div class="p-[22px] flex flex-col flex-1">
+                            <h3 class="text-[20px] font-bold text-white leading-[1.3]">E-Commerce — Onlayn Do'kon Ilovasi</h3>
+                            <p class="mt-[10px] text-[14px] leading-[24px] text-[#9fb0bb]">Mahsulotlar katalogi, qidirish va savat funksiyalari bilan to'liq onlayn savdo ilovasi.</p>
+                            <ul class="mt-[14px] flex flex-col gap-[6px]">
+                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#16a34a] text-[11px]"></i> Product catalog & search</li>
+                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#16a34a] text-[11px]"></i> Shopping cart</li>
+                                <li class="flex items-center gap-[8px] text-[13px] text-[#c6d2d8]"><i class="fa-solid fa-check text-[#16a34a] text-[11px]"></i> Filtering & responsive design</li>
+                            </ul>
+                            <div class="mt-[16px] flex flex-wrap gap-[6px]">
+                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#4ade80]" style="background:rgba(0,200,80,0.12);border:1px solid rgba(0,200,80,0.25);">React.js</span>
+                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#4ade80]" style="background:rgba(0,200,80,0.12);border:1px solid rgba(0,200,80,0.25);">Tailwind CSS</span>
+                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#4ade80]" style="background:rgba(0,200,80,0.12);border:1px solid rgba(0,200,80,0.25);">REST API</span>
+                                <span class="rounded-[8px] px-[10px] py-[5px] text-[11px] font-semibold text-[#4ade80]" style="background:rgba(0,200,80,0.12);border:1px solid rgba(0,200,80,0.25);">Cart</span>
+                            </div>
+                            <a href="https://ecommerce-react-irx2.vercel.app/" target="_blank" class="mt-[18px] flex items-center justify-center gap-[8px] rounded-[14px] py-[11px] text-[14px] font-bold text-white transition-all duration-300 hover:brightness-110 hover:shadow-lg" style="background:linear-gradient(135deg,#16a34a 0%,#0d6b30 100%);box-shadow:0 6px 18px rgba(22,163,74,0.3);">
+                                <i class="fa-solid fa-eye text-[13px]"></i> Live Demo
+                            </a>
                         </div>
-                        <a href="https://ecommerce-react-irx2.vercel.app/" target="_blank" class="mt-[20px] flex items-center justify-center gap-[8px] rounded-[14px] border border-[#0080ff] py-[10px] text-[14px] font-bold text-[#52a8ff] transition-all duration-300 hover:bg-[#0080ff] hover:text-white">
-                            <i class="fa-solid fa-eye text-[14px]"></i> Live Demo
-                        </a>
                     </article>
 
                 </div>
