@@ -1018,6 +1018,19 @@ body {
     transform: translate3d(-2%, 2%, 0) rotate(-1deg) scale(0.98);
   }
 }
+.projects-grid {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1280px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media (max-width: 699px) {
   .btn {
     width: 100%;
