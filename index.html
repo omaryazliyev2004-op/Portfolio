@@ -274,6 +274,7 @@
 </body>
 
 <script>
+    // ── Mobile Menu ──
     const menuToggle = document.getElementById("menu-toggle");
     const mobileMenu = document.getElementById("mobile-menu");
     const mobileLinks = document.querySelectorAll(".mobile-link");
@@ -301,6 +302,28 @@
             });
         });
     }
+
+    // ── Scroll Reveal ──
+    const revealEls = document.querySelectorAll(".reveal-up, .reveal-scale");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, i) => {
+            if (entry.isIntersecting) {
+                // Stagger children inside the same parent
+                const siblings = entry.target.parentElement.querySelectorAll(".reveal-up, .reveal-scale");
+                let delay = 0;
+                siblings.forEach((sib, idx) => {
+                    if (sib === entry.target) delay = idx * 100;
+                });
+                setTimeout(() => {
+                    entry.target.classList.add("is-visible");
+                }, delay);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+
+    revealEls.forEach(el => observer.observe(el));
 </script>
 
 </html>
